@@ -1,0 +1,13 @@
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.exe
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.deps.json
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.runtimeconfig.json
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.runtimeconfig.dev.json
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.dll
+C:\Users\Bruno\source\repos\Projeto_Vendas\bin\Debug\netcoreapp3.1\Projeto_Vendas.pdb
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.csprojAssemblyReference.cache
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.AssemblyInfoInputs.cache
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.AssemblyInfo.cs
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.dll
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.pdb
+C:\Users\Bruno\source\repos\Projeto_Vendas\obj\Debug\netcoreapp3.1\Projeto_Vendas.genruntimeconfig.cache
