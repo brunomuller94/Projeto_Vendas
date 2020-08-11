@@ -7,6 +7,9 @@ namespace Projeto_Vendas
         static void Main(string[] args)
         {
             int opcao;
+            Cliente c = new Cliente();
+
+
             do
             {
                 Console.Clear();
@@ -21,6 +24,13 @@ namespace Projeto_Vendas
                 {
                     case 1:
                         Console.WriteLine("---- CADASTRAR CLIENTE ----\n");
+                        Console.WriteLine("Digite o nome do cliente:\n");
+                        c.Nome = Console.ReadLine();
+                        //string nome = Console.ReadLine();
+                        Console.WriteLine("Digite o CPF do cliente:\n");
+                        c.Cpf = Console.ReadLine();
+                        //string cpf = Console.ReadLine();
+                        Console.WriteLine($"Nome: {c.Nome} CPF: {c.Cpf}\n");
                         break;
 
                     case 2:
