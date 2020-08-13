@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Projeto_Vendas
 {
@@ -7,7 +8,9 @@ namespace Projeto_Vendas
         static void Main(string[] args)
         {
             int opcao;
-            Cliente c = new Cliente();
+            Cliente c;
+            //Lista de clientes
+            List<Cliente> clientes = new List<Cliente>();
 
 
             do
@@ -23,18 +26,49 @@ namespace Projeto_Vendas
                 switch (opcao)
                 {
                     case 1:
+                        c = new Cliente();
                         Console.WriteLine("---- CADASTRAR CLIENTE ----\n");
                         Console.WriteLine("Digite o nome do cliente:\n");
                         c.Nome = Console.ReadLine();
-                        //string nome = Console.ReadLine();
                         Console.WriteLine("Digite o CPF do cliente:\n");
                         c.Cpf = Console.ReadLine();
-                        //string cpf = Console.ReadLine();
-                        Console.WriteLine($"Nome: {c.Nome} CPF: {c.Cpf}\n");
+
+                        //Verificacao do CPF
+                        if (clientes.Count == 0)
+                        {
+                            clientes.Add(c);
+                            Console.WriteLine("Cliente cadastrado com sucesso!");
+                        }
+                        else
+                        {
+                            bool encontrado = false;
+                            foreach (Cliente clienteCadastrado in clientes)
+                            {
+                                if (clienteCadastrado.Cpf == c.Cpf)
+                                {
+                                    //Nao permitir o cadastro
+                                    encontrado = true;
+                                }
+                            }
+                            if (!encontrado)
+                            {
+                                clientes.Add(c);
+                                Console.WriteLine("Cliente cadastrado com sucesso!"); 
+                            }
+                            else
+                            {
+                                Console.WriteLine("CPF ja se encontra cadastrado!"); 
+                            }
+                        }
                         break;
 
                     case 2:
                         Console.WriteLine("---- LISTAR CLIENTE ----\n");
+                        //Laco para listar clientes
+                        foreach (Cliente clienteCadastrado in clientes)
+                        {
+                            Console.WriteLine(clienteCadastrado);
+                        }
                         break;
 
                     case 0:
